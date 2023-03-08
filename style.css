@@ -1,0 +1,83 @@
+
+
+body {
+    height: 900px;
+}
+
+.all-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(171, 170, 170);
+    height: 100%;
+}
+.left-profile {
+    display: flex;
+    justify-content: top;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(105, 104, 104);
+}
+img {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(171, 170, 170); 
+    padding: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    
+}
+.top-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(105, 104, 104);
+    
+    margin: 3%;
+    align-items: center;
+}
+.down-side {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(105, 104, 104);
+    margin: 3%;
+}
+button {
+    width: 250px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.big-button {
+    margin-left: 50%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+    height: 50px;
+    
+    color: blue;
+    background-color: white;
+}
+.disabled-button {
+    margin-right: 50%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    height: 50px;
+
+    color: blue;
+    background-color: rgb(69, 68, 68);
+}
+a {
+    margin: 10%;
+    font-size: 20px;
+    color: black;
+}
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
